@@ -1,0 +1,19 @@
+site_name: xNelion21 – Portfolio & Projekty
+theme:
+  name: material
+  palette:
+    scheme: slate # ciemny motyw
+    primary: indigo
+
+nav:
+  - Strona główna: index.md
+  - Projekty:
+      - Gym Manager (Java + Vue): 
+          - Przegląd i Architektura: projects/gym-manager/index.md
+          - Galeria i Interfejs: projects/gym-manager/screenshots.md
+      - Karaoke Machine (Java + Vue): 
+          - Przegląd i Architektura: projects/karaoke-machine/index.md
+          - Galeria i Interfejs: projects/karaoke-machine/screenshots.md
+      - Projekt PPSI (Java + Vue): 
+          - Przegląd i Specyfikacja: projects/projekt-ppsi/index.md
+          - Galeria i Interfejs: projects/projekt-ppsi/screenshots.md
