@@ -1,0 +1,27 @@
+site_name: Portfolio & Technical Documentation
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: indigo
+  features:
+    - navigation.indexes
+    - navigation.sections
+
+nav:
+  - Home: index.md
+  - Projects:
+      - Karaoke Machine:
+          - Product Documentation:
+              - API Documentation: projects/zaliczenie/dokumentacja produktowa/karaoke - machine_ dokumentacj API.md
+              - Setup & Installation Guide: projects/zaliczenie/dokumentacja produktowa/karaoke machine - instrukcja uruchomienia projektu.md
+              - Environment Description: projects/zaliczenie/dokumentacja produktowa/karaoke machine - Opis środowiska.md
+              - Product Requirements Document (PRD): projects/zaliczenie/dokumentacja produktowa/karaoke machine - Product Requirements Document (PRD).md
+              - Specification & API Guide: projects/zaliczenie/dokumentacja produktowa/karaoke mechine - specyfikacja i przewodnik po API.md
+          - Project Management Docs:
+              - Backlog: projects/zaliczenie/dokumentacja projektowa/backlog.md
+              - Estimation: projects/zaliczenie/dokumentacja projektowa/estymata.md
+              - Retrospective (05.12): projects/zaliczenie/dokumentacja projektowa/karaoke machine - retrospekcja 05.12.md
+              - Features & Environment: projects/zaliczenie/dokumentacja projektowa/karaoke-machine_ _ funkcjonalnosci _ środowisko.md
+              - Tooling Configuration: projects/zaliczenie/dokumentacja projektowa/karaoke-machine_konfiguracja_narzedzi.md
+              - Workflow, Backlog & Sprints: projects/zaliczenie/dokumentacja projektowa/zadanieC - przebieg-backlog-sprinty.md
